@@ -1,0 +1,6 @@
+{
+   "receivers":[
+      "fake@email.com",
+      "pretend@email.com"
+   ]
+}
