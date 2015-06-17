@@ -1,5 +1,5 @@
 function getRandomInRange(min, max) {	
-	return Math.floor(Math.random() * ((max - min) + 1) + min)
+	return Math.floor(Math.random() * ((max - min) + 1) + min);
 }
 
 function getRandomSubset(array, length) {
@@ -24,8 +24,8 @@ module.exports = {
 		// You can choose 0 to 4 of the large numbers
 		var largeNumberQuota = getRandomInRange(0, 4);
 		
-		var largeNumbers = getRandomSubset(largeNumbers, largeNumberQuota);
-		var smallNumbers = getRandomSubset(smallNumbers, 6 - largeNumberQuota);
+		largeNumbers = getRandomSubset(largeNumbers, largeNumberQuota);
+		smallNumbers = getRandomSubset(smallNumbers, 6 - largeNumberQuota);
 		
 		var selection = 
 		{
@@ -35,4 +35,4 @@ module.exports = {
 		
 		return selection;
 	}
-}
+};
