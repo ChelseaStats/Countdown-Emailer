@@ -12,8 +12,8 @@ var feed = new Feed({
 		},
 		{
 			name: "ChelseaStats",
-			email: "countdown@thechels.uk",
-			link: "http://www.thechels.uk"
+			email: "cde@thechels.uk",
+			link: "http://www.thechels.co.uk"
 		}
 	]
 });
