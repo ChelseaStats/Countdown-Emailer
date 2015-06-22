@@ -2,5 +2,6 @@
     username: "username",
     password: "password",
     receivers: "receivers.json",
-    rssLoc : "~/Countdown"
-}
+    rssDest: "../countdown.rss",
+    puzzleSrc: "./puzzles.csv"
+};
