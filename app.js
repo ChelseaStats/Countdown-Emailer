@@ -21,6 +21,9 @@ var body = "Morning all! \r\n\n" +
 // Config contains sensitive information or information that may change on different environments
 var config = require('./config.js');
 
+var puzzlesRepo = require('./PuzzleRepo.js')
+puzzlesRepo.addPuzzle(puzzle);
+
 var rssFeed = require('./RSS-Feed.js');
 rssFeed.writeFeed();
 
